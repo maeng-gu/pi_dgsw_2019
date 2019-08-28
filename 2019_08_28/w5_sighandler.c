@@ -6,7 +6,7 @@
 void sig_handler (int signo);
 int main(int argc, char **argv){
 	int i=0;
-	ingnal(SIGINT, (void *)sig_handler);
+	singnal(SIGINT, (void *)sig_handler);
 	while(1){
 		printf("%d \n", i);
 		i++;
