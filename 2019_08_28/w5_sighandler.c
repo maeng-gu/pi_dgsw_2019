@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <signal.h>
+#include <unistd.h>
+#include <sys/types.h>
 
 void sig_handler (int signo);
 int main(int argc, char **argv){
